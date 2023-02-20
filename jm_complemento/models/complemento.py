@@ -5,10 +5,12 @@ from datetime import datetime
 
 class Stock(models.Model):
     _inherit = 'product.template'
-    producto_id = self.id	
     
     def action_aw(self):
+        product = self
+
+        producto_id = product.id
 
         mensaje = producto_id
-		
+        
         raise ValidationError(mensaje)
