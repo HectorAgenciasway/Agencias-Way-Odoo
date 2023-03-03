@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 {
-    'name': 'Módulo Crear Producto',
+    'name': 'Módulo Actualizar Producto',
     'version': '1.0',
     'category': 'Custom',
     'description': "Módulo Crear Producto AW",
