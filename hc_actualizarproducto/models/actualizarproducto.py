@@ -6,7 +6,7 @@ from datetime import datetime
 class Stock(models.Model):
     _inherit = 'product.template'
     
-    def action_actualizar_producto(self):
+    def action_actualizarproducto(self):
         product = self
 
         producto_id = product.id
