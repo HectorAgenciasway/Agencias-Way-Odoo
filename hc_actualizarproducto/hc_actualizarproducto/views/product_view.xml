@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="hc_view_product_form" model="ir.ui.view">
+            <field name="name">hc.product.template.form</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+            <header>
+                    <button name="action_actualizar_producto" string="Crear Producto" type="object" 					class="oe_highlight"/>
+            </header>
+            </field>
+        </record>
+    </data>
+</odoo>
